@@ -11,6 +11,7 @@
 		AC349F9B2977E093001435B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC349F9A2977E093001435B4 /* ContentView.swift */; };
 		AC349F9D2977E095001435B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC349F9C2977E095001435B4 /* Assets.xcassets */; };
 		AC349FA02977E095001435B4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC349F9F2977E095001435B4 /* Preview Assets.xcassets */; };
+		AC349FA72977E3C5001435B4 /* Retro Gaming.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC349FA62977E3C4001435B4 /* Retro Gaming.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		AC349F9A2977E093001435B4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AC349F9C2977E095001435B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC349F9F2977E095001435B4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AC349FA62977E3C4001435B4 /* Retro Gaming.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Retro Gaming.ttf"; sourceTree = "<group>"; };
+		AC349FA82977E3D6001435B4 /* Nintendo-Gameboy-UI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Nintendo-Gameboy-UI-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +54,10 @@
 		AC349F972977E093001435B4 /* Nintendo Gameboy UI */ = {
 			isa = PBXGroup;
 			children = (
+				AC349FA82977E3D6001435B4 /* Nintendo-Gameboy-UI-Info.plist */,
 				AC349F982977E093001435B4 /* Nintendo_Gameboy_UIApp.swift */,
 				AC349F9A2977E093001435B4 /* ContentView.swift */,
+				AC349FA62977E3C4001435B4 /* Retro Gaming.ttf */,
 				AC349F9C2977E095001435B4 /* Assets.xcassets */,
 				AC349F9E2977E095001435B4 /* Preview Content */,
 			);
@@ -125,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC349FA72977E3C5001435B4 /* Retro Gaming.ttf in Resources */,
 				AC349FA02977E095001435B4 /* Preview Assets.xcassets in Resources */,
 				AC349F9D2977E095001435B4 /* Assets.xcassets in Resources */,
 			);
@@ -270,6 +276,7 @@
 				DEVELOPMENT_TEAM = NJWKSQXR8C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Nintendo-Gameboy-UI-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +306,7 @@
 				DEVELOPMENT_TEAM = NJWKSQXR8C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Nintendo-Gameboy-UI-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
